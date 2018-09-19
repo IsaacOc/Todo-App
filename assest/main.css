@@ -1,0 +1,299 @@
+
+.divheader2{
+    padding: 0.1em;
+}
+
+.divheader3{
+    margin: 1em;
+}
+
+.divheaderp{
+    float: right;
+    font-size: 20px;
+    padding-right: 30em;
+    padding-top: 2.5em;
+}
+
+
+.divform2{
+    margin: 1em;
+    
+}
+
+.divform3{
+    font-size: 20px;
+    width: 500px;
+    padding: 0.5em;
+    margin-left:20em; 
+}
+input{
+    width: 100%;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+input[type="submit"]{
+    width: 50%;
+    float: right;
+    background-color: green;
+    border: 0em;    
+    border-radius: 0em;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    padding: 0.5em;
+}
+
+.spantitle
+{    
+    margin-left:2em;
+}
+
+.spanhead
+{
+    font-size: 16px;
+    margin-left:2em;
+}
+
+.divheaderh1
+{
+    padding-left: 30px; 
+}
+
+.fields
+{
+    margin:0.3em;
+    margin-left: 0em;
+}
+.intro
+{
+    text-align:center;
+}
+
+@media only screen and (max-width:320px)
+{
+    .divheader2{
+        padding: 0.5em;
+    }
+    
+    .divheader3{
+        margin: 1em;
+    }
+     
+    .divheaderh1
+    {
+        font-size: 30px; 
+    }
+
+    .divheaderp{
+        float: left;
+        font-size: 20px;
+        padding-right: 0em;
+        padding-top: 0.5em;
+    }
+
+    .spantitle
+    {    
+        font-size: 1.3em;
+        margin-left:0em;
+    }
+
+    .spanhead
+    {
+        font-size: 13px;
+    }
+
+    /*form*/
+
+        
+    .divform2{
+        margin: 0em;
+    }
+
+    .divform3{
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin-left:0em; 
+    }
+    input{
+        width: 100%;
+        padding: 0.5em;
+        border-radius: 0.5em;
+    }
+
+    input[type="submit"]{
+        width: 50%;
+        float: right;
+        background-color: green;
+    }
+
+    textarea{
+        width: 100%;
+        height: 100px;
+        border-radius: 0em;
+    }
+    .fields
+    {
+        margin-right:0.8em;
+        margin-left:0em;
+    }
+   hr{
+       display: none;
+   }
+
+}
+
+
+@media only screen and (max-width:375px)
+{
+    .divheader2{
+        padding: 0.5em;
+    }
+    
+    .divheader3{
+        margin: 1em;
+    }
+    
+   
+    .divheaderh1
+    {
+        font-size: 30px; 
+    }
+    .divheaderp{
+        float: left;
+        font-size: 19px;
+        padding-right: 0em;
+        padding-top: 0em;
+    }
+    .spantitle
+    {    
+        font-size: 1.3em;
+        margin-left:0em;
+    }
+    .spanhead
+    {
+        font-size: 13px;
+    }
+
+    /*form*/
+
+        
+    .divform2{
+        margin: 0em;
+    }
+
+    .divform3{
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin-left:0em; 
+    }
+    input{
+        width: 100%;
+        padding: 0.5em;
+        border-radius: 0.5em;
+    }
+
+    input[type="submit"]{
+        width: 50%;
+        float: right;
+        background-color: green;
+    }
+
+    textarea{
+        width: 100%;
+        height: 100px;
+        border-radius: 0em;
+    }
+    .fields
+    {
+        margin-right:0.8em;
+        margin-left:0em;
+    }
+   hr{
+       display: none;
+   }
+
+}
+
+
+@media only screen and (max-width:425px)
+{
+    .divheader2{
+        padding: 0.5em;
+    }
+    
+    .divheader3{
+        margin: 1em;
+        background-color: blue;
+    }
+    
+   
+    .divheaderh1
+    {
+        font-size: 30px; 
+    }
+    .divheaderp{        
+        font-size: 19px;
+        padding-right: 0em;
+        padding-top: 0em;
+        margin-top: 3em;
+    }
+    .spantitle
+    {    
+        font-size: 1.3em;
+        margin-left:0em;
+    }
+    .spanhead
+    {
+        float: right;
+        font-size: 13px;
+        margin: 2em;
+    }
+
+    /*form*/
+
+        
+    .divform2{
+        margin: 0em;
+    }
+
+    .divform3{
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin-left:0em; 
+    }
+    input{
+        width: 100%;
+        padding: 0.5em;
+        border-radius: 0.5em;
+    }
+
+    input[type="submit"]{
+        width: 50%;
+        float: right;
+        background-color: green;
+    }
+
+    textarea{
+        width: 100%;
+        height: 100px;
+        border-radius: 0em;
+    }
+    .fields
+    {
+        margin-right:0.8em;
+        margin-left:0em;
+    }
+   hr{
+       display: none;
+   }
+
+}
