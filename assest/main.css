@@ -1,6 +1,7 @@
 
 .divheader2{
     padding: 0.1em;
+    background-color:rgb(223, 223, 14)
 }
 
 .divheader3{
@@ -14,10 +15,11 @@
     padding-top: 2.5em;
 }
 
+/*form*/
 
 .divform2{
     margin: 1em;
-    
+    border-left: 1px thin black;
 }
 
 .divform3{
@@ -26,10 +28,27 @@
     padding: 0.5em;
     margin-left:20em; 
 }
+
+/*todo list */
+
+.divitem2{
+    margin: 1em;
+    border-left: 1px thin black;
+}
+
+.divitem3{
+    font-size: 20px;
+    width: 800px;
+    padding: 0.5em;
+    margin-left:10em; 
+}
+
+/*input */
+
 input{
     width: 100%;
     padding: 1em;
-    border-radius: 1em;
+    border-radius: 0em;
 }
 
 input[type="submit"]{
@@ -37,7 +56,7 @@ input[type="submit"]{
     float: right;
     background-color: green;
     border: 0em;    
-    border-radius: 0em;
+    border-radius: 0.3em;
 }
 
 textarea{
@@ -67,10 +86,53 @@ textarea{
     margin:0.3em;
     margin-left: 0em;
 }
+
 .intro
 {
     text-align:center;
 }
+
+/* footer */
+
+.divfooter2{
+    padding: 0.1em;
+    background-color:rgb(223, 223, 14)
+}
+
+.divfooter3{
+    margin: 1em;
+}
+
+.divfooterp
+{    
+    text-align: center;
+    font-size: 20px;
+    padding-right: 0em;
+    padding-top: 0em;
+}
+
+.divfooterh1
+{
+    padding-left: 0px; 
+}
+
+.button
+{
+    float: right;
+    padding: 0.7em;
+    background-color: green;
+    border:0px;
+    border-radius: 0.3em;
+}
+.userpro
+{
+    float: right;
+    font-size: 20px;
+    padding-right: 30em;
+    padding-top: 1em;  
+}
+
+/*size 320px*/
 
 @media only screen and (max-width:320px)
 {
@@ -147,6 +209,7 @@ textarea{
 
 }
 
+/*size 375 */
 
 @media only screen and (max-width:375px)
 {
